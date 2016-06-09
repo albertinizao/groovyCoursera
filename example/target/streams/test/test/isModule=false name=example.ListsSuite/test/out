@@ -1,0 +1,18 @@
+[0m[[0minfo[0m] [0m[32mListsSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- one plus one is two[0m[0m
+[0m[[0minfo[0m] [0m[32m- one plus one is three? No![0m[0m
+[0m[[0minfo[0m] [0m[32m- details why one plus one is not three[0m[0m
+[0m[[0minfo[0m] [0m[32m- intNotZero throws an exception if its argument is 0[0m[0m
+[0m[[0minfo[0m] [0m[32m- sum of a few numbers[0m[0m
+[0m[[0minfo[0m] [0m[32m- sum of no numbers[0m[0m
+[0m[[0minfo[0m] [0m[32m- sum of one number is the same number[0m[0m
+[0m[[0minfo[0m] [0m[32m- sum of negative numbers. They arent natural numbers, but it works.[0m[0m
+[0m[[0minfo[0m] [0m[32m- sum of null List get NullPointer [0m[0m
+[0m[[0minfo[0m] [0m[32m- max of a few numbers[0m[0m
+[0m[[0minfo[0m] [0m[32m- max of one number is this number[0m[0m
+[0m[[0minfo[0m] [0m[32m- max of the same number is this number[0m[0m
+[0m[[0minfo[0m] [0m[32m- max of number ordered[0m[0m
+[0m[[0minfo[0m] [0m[32m- max of number reversed[0m[0m
+[0m[[0minfo[0m] [0m[32m- max many zero is zero[0m[0m
+[0m[[0minfo[0m] [0m[32m- max of no numbers[0m[0m
+[0m[[0minfo[0m] [0m[32m- max of null list[0m[0m

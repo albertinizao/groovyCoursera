@@ -46,8 +46,8 @@ import org.scalatest.junit.JUnitRunner
    *
    * This allows tests to be written in a more readable manner:
    */
-  test("one plus one is three?") {
-    assert(1 + 1 == 3) // This assertion fails! Go ahead and fix it.
+  test("one plus one is three? No!") {
+    assert(1 + 1 != 3) // This assertion fails! Go ahead and fix it.
   }
 
 
@@ -70,9 +70,9 @@ import org.scalatest.junit.JUnitRunner
    * }}}
    *
    * We recommend to always use the `===` equality operator when writing tests.
-   */
+    **/
   test("details why one plus one is not three") {
-    assert(1 + 1 === 3) // Fix me, please!
+    assert(1 + 1 === 2) // Fix me, please!
   }
 
   /**
@@ -116,10 +116,48 @@ import org.scalatest.junit.JUnitRunner
   test("sum of a few numbers") {
     assert(sum(List(1,2,0)) === 3)
   }
+  test("sum of no numbers") {
+    assert(sum(List()) === 0)
+  }
+  test("sum of one number is the same number") {
+    assert(sum(List(1)) === 1)
+  }
+  test("sum of negative numbers. They arent natural numbers, but it works.") {
+    assert(sum(List(-1,-2)) === -3)
+  }
+  test("sum of null List get NullPointer ") {
+    assert(sum(null) === 0)
+  }
 
   test("max of a few numbers") {
     assert(max(List(3, 7, 2)) === 7)
   }
+  test("max of one number is this number") {
+    assert(max(List(3)) === 3)
+  }
+  test("max of the same number is this number") {
+    assert(max(List(8,8,8,8,8,8)) === 8)
+  }
+  test("max of number ordered") {
+    assert(max(List(1,2,3)) === 3)
+  }
+  test("max of number reversed") {
+    assert(max(List(3,2,1)) === 3)
+  }
+  test("max many zero is zero") {
+    assert(max(List(0,0,0)) === 0)
+  }
+  test("max of no numbers") {
+    intercept[NoSuchElementException] {
+      max(List())
+    }
+  }
+  test("max of null list") {
+    intercept[NoSuchElementException] {
+      max(null)
+    }
+  }
+
 
 
 
