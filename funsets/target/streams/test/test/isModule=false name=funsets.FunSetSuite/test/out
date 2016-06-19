@@ -1,0 +1,16 @@
+[0m[[0minfo[0m] [0m[32mFunSetSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- contains is implemented[0m[0m
+[0m[[0minfo[0m] [0m[32m- singletonSet(1) contains 1[0m[0m
+[0m[[0minfo[0m] [0m[32m- union contains all elements of each set[0m[0m
+[0m[[0minfo[0m] [0m[32m- Intersect of distinct singleton return none of this values[0m[0m
+[0m[[0minfo[0m] [0m[32m- Intersect of the same Set is this Set[0m[0m
+[0m[[0minfo[0m] [0m[32m- Intersect of one Set and a union of other and the same Set is this Set[0m[0m
+[0m[[0minfo[0m] [0m[32m- Diff of s1 and s2 is s1[0m[0m
+[0m[[0minfo[0m] [0m[32m- Diff of s1 and s1 is empty[0m[0m
+[0m[[0minfo[0m] [0m[32m- Filter s1 to get if is odd[0m[0m
+[0m[[0minfo[0m] [0m[32m- All are not odd[0m[0m
+[0m[[0minfo[0m] [0m[32m- All are less than 10[0m[0m
+[0m[[0minfo[0m] [0m[32m- Exist at least one odd value[0m[0m
+[0m[[0minfo[0m] [0m[32m- Exist at leat one value less than 10[0m[0m
+[0m[[0minfo[0m] [0m[32m- No exist at leat one value greater than 10[0m[0m
+[0m[[0minfo[0m] [0m[32m- Map set to double values[0m[0m

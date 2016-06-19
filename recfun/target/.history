@@ -1,0 +1,47 @@
+console
+test
+test PascalSuite
+PascalSuite test
+recfun.PascalSuite test
+test-only recfun.PascalSuite
+recfun.PascalSuite tes
+console
+recfun.Main.balance("pepe")
+:q
+q!
+:q
+:q!
+q!
+:q
+:q!
+console
+test-only recfun.BalanceSuite
+:q
+test-only recfun.CountChangeSuite
+console
+test-only recfun.CountChangeSuite
+console
+test
+console
+test
+console
+test-only recfun.BalanceSuite
+test-only recfun.CountChangeSuite
+console
+test-only recfun.CountChangeSuite
+console
+clear
+exit
+console
+test-only recfun.CountChangeSuite
+console
+:q
+console
+test-only recfun.CountChangeSuite
+console
+test-only recfun.CountChangeSuite
+console
+test
+console
+test
+submit albertinizao@gmail.com SBDb0NvZk6rc1uWm
